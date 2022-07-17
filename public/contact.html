@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="./img/123.png">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Code with Shreesh</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark">
+    <div class="container">
+      <a href="#" class="navbar-brand">
+        <img src="./img/logo22.png" height="50" alt="#">
+    </a>
+      <a href="index.html" class="navbar-brand"></a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="services.html" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="blog.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item active">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <header id="page-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 m-auto text-center">
+          <h1>Contact Info</h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, temporibus?</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card p-4">
+            <div class="card-body">
+              <h4>Get In Touch</h4>
+              <p>Hello,This is Shreesh, who is interested and skilled in Full-stack web development.</p>
+              <h4>College</h4>
+              <p>REVA University Bengaluru</p>
+              <h4>Email</h4>
+              <p>shrishnadgir26@gmail.com</p>
+              <h4>Phone</h4>
+              <p>+91-7795371826</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="card p-4">
+            <div class="card-body">
+              <h3 class="text-center">Please Fill Out This Form To Contact Us</h3>
+              <hr>
+              <div class="row">
+                <div class="col-md-6">
+                  <form action="http://localhost:3000/api/customer" method="POST">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="First Name" name="firstname">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group" >
+                    <input type="text" class="form-control" placeholder="Last Name" name="lastname">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Email" name="email">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group" >
+                    <input type="text" class="form-control" placeholder="Phone Number" name="phonenumber">
+                  </div>
+                </div>
+              
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <textarea class="form-control" placeholder="Message" name="message"></textarea>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group" >
+                    <input type="submit" value="Submit" class="btn btn-outline-danger btn-block" onClick="register()">
+                  </div>
+                </div>
+              </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- STAFF -->
+  <!-- <section id="staff" class=" text-center bg-info text-white">
+    <div class="container">
+      <h1>Developed-By</h1>
+      <hr>
+      <div class="row">
+        <div class="col-md-3">
+          <img src="" alt="" class="img-fluid rounded-circle mb-6"class="center" float="center">
+          <h4>Shreesh</h4>
+          <small>Web Developer</small>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <section id="info" class="py-3 bg-dark text-center text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center">
+          <h3>Developed-By</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eveniet blanditiis incidunt iusto corrupti illum
+            cum laudantium ex sequi amet.</p>
+          <!-- <a href="about.html" class="btn btn-outline-danger btn-dark">Learn More</a> -->
+        </div>
+        <div class="col-md-6">
+          <img src="img/111111111111111111111111111.jpeg" alt="" class="img-fluid rounded-circle mb-8"class="center" float="center">
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- FOOTER -->
+    <footer id="main-footer" class="text-center p-4">
+      <div class="container">        
+            <div class="col">
+              <p>Copyright &copy;
+                <span id="year"></span>Code-with Shreesh</p>
+            </div>
+            <div class="Social-menu">
+              <ul>
+  <!-- Facebook -->
+  <a class="btn btn-primary" style="background-color: #3b5998;" href="https://www.facebook.com/shreesh.nadgir.1" role="button" target="_blank"
+    ><i class="fab fa-facebook-f"></i
+  ></a>
+  
+  <!-- Twitter -->
+  <a class="btn btn-primary" style="background-color: #55acee;" href="https://twitter.com/ShreeshNadgir?t=w4gnmJN2DWg8CFly6YLm5g&s=08" role="button" target="_blank"
+    ><i class="fab fa-twitter"></i
+  ></a>
+  
+  <!-- Google -->
+  <a class="btn btn-primary" style="background-color: #dd4b39;" href="#!" role="button" target="_blank"
+    ><i class="fab fa-google"></i
+  ></a>
+  
+  <!-- Instagram -->
+  <a class="btn btn-primary" style="background-color: #ac2bac;" href="https://instagram.com/shreesh_g._n?utm_medium=copy_link" role="button" target="_blank"
+    ><i class="fab fa-instagram"></i
+  ></a>
+  
+  <!-- Linkedin -->
+  <a class="btn btn-primary" style="background-color: #0082ca;" href="https://www.linkedin.com/in/shrish-nadgir-887a4a16a" role="button"target="_blank"
+    ><i class="fab fa-linkedin-in"></i
+  ></a>
+  <!-- 
+  
+  Youtube
+  <a class="btn btn-primary" style="background-color: #ed302f;" href="#! " target="_blank"
+    ><i class="fab fa-youtube"></i
+  ></a> -->
+  
+  
+  <!-- Github -->
+  <a class="btn btn-primary" style="background-color: #333333;" href="https://github.com/shrish26/shrish26.git" target="_blank" role="button"
+    ><i class="fab fa-github"></i
+  ></a>
+  
+  <!-- Whatsapp -->
+  <a class="btn btn-primary" style="background-color: #25d366;" href="#!" role="button"
+    ><i class="fab fa-whatsapp"></i
+  ></a>
+              </ul>
+            </div>
+      </div>
+    </footer>
+  
+
+  <!-- Back to top button -->
+<button
+type="button"
+class="btn btn-dark btn-floating btn-lg"
+id="btn-back-to-top"
+>
+<i class="fas fa-arrow-up"></i>
+</button>
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+    //Get the button
+let mybutton = document.getElementById("btn-back-to-top");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 20 ||
+    document.documentElement.scrollTop > 20
+  ) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+// When the user clicks on the button, scroll to the top of the document
+mybutton.addEventListener("click", backToTop);
+
+function register() {
+    //  alert("you have clicked submit");
+      const xhttp = new XMLHttpRequest();
+      xhttp.onload = function() {
+  // Here you can use the Data
+        alert ("on load alert");
+  }
+  xhttp.open("GET", "//loc");
+xhttp.send();
+    }
+
+function backToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+  </script>
+</body>
+
+</html>
